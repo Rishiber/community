@@ -137,7 +137,7 @@ public class SensitiveFilter {
     }
 
 
-    // 前缀树
+    // 前缀树节点
     private class TrieNode {
 
         // 关键词结束标识
