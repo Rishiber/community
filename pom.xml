@@ -13,9 +13,10 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>community</name>
     <description>nowcoder community</description>
+    <packaging>war</packaging>
 
     <properties>
-        <java.version>8</java.version>
+        <java.version>12</java.version>
     </properties>
 
     <dependencies>
@@ -127,6 +128,7 @@
     </dependencies>
 
     <build>
+        <finalName>ROOT</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
